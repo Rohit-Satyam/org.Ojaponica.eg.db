@@ -45,7 +45,7 @@ sample_gene <- c("Os01g0100100","Os01g0100200","Os01g0100300","Os01g0100400","Os
 ojp <- org.Ojaponica.eg.db
 sample_test <- enrichGO(sample_gene, OrgDb=ojp, pvalueCutoff=1, qvalueCutoff=1, keyType = "GID", ont="ALL")
 ```
-
+Learn more about GSEA from [this blog](https://guangchuangyu.github.io/2016/01/go-analysis-using-clusterprofiler/)
 
 # References
 1. [AnnotationForge](docs.google.com/spreadsheets/d/1ujC0Grg0y6Kov3srXI8K4mA73hjp4bgdpCNN8qroxqQ/edit#gid=0)
